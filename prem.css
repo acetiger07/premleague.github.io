@@ -1,0 +1,66 @@
+body{
+	cursor: url(fbl1.png), ;
+	background-color: black;
+	background: url(https://www.chromethemer.com/download/hd-wallpapers/football-3840x2160.jpg);
+	background-size: contain;
+}
+
+a {
+	color: red;
+	background-blend-mode: screen;
+}
+h1{
+	color: goldenrod;
+	text-align: center;
+	border-bottom: 2px solid orange;
+	border-right: 2px solid goldenrod;
+	width: 200px;
+	box-shadow: 3px 3px 3px orange;
+	font-family: 'Edu TAS Beginner', cursive;
+
+}
+p1 {
+	color: red;
+	font-size: 30px;
+    font-family: 'Style Script', cursive;
+}
+
+.container {
+	display: flex;
+	flex-wrap: wrap;
+	grid-gap: 10px;
+	justify-content: space-evenly;
+}
+
+img {
+	margin: 30px;
+	transition: all 1s;
+}
+
+img:hover{
+	transform: scale(1.1);
+}
+
+.prem{
+	background: linear-gradient(lightcoral, lightcyan);
+	margin: 0px;
+}
+.blue {
+	background: linear-gradient(white,#66B3D4);
+}
+
+.crimson{
+	background: linear-gradient(crimson,teal);
+}
+.deepblue{
+	background: linear-gradient(#181190,#D0831C);
+}
+.red{
+	background: linear-gradient(#DA1E00,#FF9900);
+}
+.bloodred{
+	background: linear-gradient(#FE0006,#BC9472);
+}
+.white{
+	background: linear-gradient(#10004D,navajowhite);
+}
